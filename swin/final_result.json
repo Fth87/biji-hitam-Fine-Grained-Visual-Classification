@@ -1,0 +1,10 @@
+{
+    "model": "swin_tiny_patch4_window7_224",
+    "num_classes": 54,
+    "top1_accuracy": 80.71895424836602,
+    "top5_accuracy": 98.25708061002179,
+    "macro_f1": 0.806258110622621,
+    "train_samples": 7236,
+    "val_samples": 918,
+    "test_samples": 918
+}

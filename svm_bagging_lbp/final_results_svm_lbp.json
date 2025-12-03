@@ -1,0 +1,24 @@
+{
+    "model": "Bagging_SVM_LBP_Only",
+    "num_classes": 54,
+    "feature_dim": 26,
+    "lbp_config": {
+        "radius": 3,
+        "n_points": 24,
+        "method": "uniform"
+    },
+    "best_params": {
+        "C": 47.45535530327107,
+        "kernel": "rbf",
+        "gamma": "auto",
+        "n_estimators": 17,
+        "max_samples": 0.9954888318934102,
+        "max_features": 0.7653278416823284
+    },
+    "top1_accuracy": 37.58169934640523,
+    "top5_accuracy": 73.74727668845316,
+    "macro_f1": 0.3623084073588422,
+    "train_samples": 7236,
+    "val_samples": 918,
+    "test_samples": 918
+}

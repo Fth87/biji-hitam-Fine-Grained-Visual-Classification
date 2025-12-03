@@ -1,0 +1,12 @@
+{
+    "experiment": "Swin-T_No_Augmentation",
+    "model": "swin_tiny_patch4_window7_224",
+    "num_classes": 54,
+    "augmentation": false,
+    "top1_accuracy": 83.11546840958606,
+    "top5_accuracy": 97.93028322440087,
+    "macro_f1": 0.8268596762355295,
+    "train_samples": 7236,
+    "val_samples": 918,
+    "test_samples": 918
+}

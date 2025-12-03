@@ -1,0 +1,24 @@
+{
+    "model": "Bagging_SVM_HSV_Only",
+    "num_classes": 54,
+    "feature_dim": 24,
+    "hsv_bins": [
+        8,
+        8,
+        8
+    ],
+    "best_params": {
+        "C": 21.079094288978762,
+        "kernel": "rbf",
+        "gamma": "auto",
+        "n_estimators": 17,
+        "max_samples": 0.9996167975888922,
+        "max_features": 0.557277627235146
+    },
+    "top1_accuracy": 65.0326797385621,
+    "top5_accuracy": 92.81045751633987,
+    "macro_f1": 0.6431380944071753,
+    "train_samples": 7236,
+    "val_samples": 918,
+    "test_samples": 918
+}

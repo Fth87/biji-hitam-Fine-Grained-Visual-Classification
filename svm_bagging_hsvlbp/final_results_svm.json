@@ -1,0 +1,29 @@
+{
+    "model": "Bagging_SVM_HSV_LBP",
+    "num_classes": 54,
+    "feature_dim": 50,
+    "hsv_bins": [
+        8,
+        8,
+        8
+    ],
+    "lbp_config": {
+        "radius": 3,
+        "n_points": 24,
+        "method": "uniform"
+    },
+    "best_params": {
+        "C": 41.18215672223423,
+        "kernel": "rbf",
+        "gamma": "auto",
+        "n_estimators": 21,
+        "max_samples": 0.9995064889714801,
+        "max_features": 0.6446926911519497
+    },
+    "top1_accuracy": 74.61873638344227,
+    "top5_accuracy": 95.53376906318083,
+    "macro_f1": 0.7413698213573561,
+    "train_samples": 7236,
+    "val_samples": 918,
+    "test_samples": 918
+}
